@@ -6,6 +6,6 @@ This code needs as inputs initialization of protein levels over time. It then us
 
 An example corresponding to for E2F3A, E2F8, E2F4, EdU and pH3 data extracted from 2D still images is given.
 
-# Thanks to the Third Party Lib
+# Thanks to a Third Party Lib
 
-http://www.cad.zju.edu.cn/home/dengcai/Data/code/hungarian.m
+[Hungarian algorithm](http://www.cad.zju.edu.cn/home/dengcai/Data/code/hungarian.m)
