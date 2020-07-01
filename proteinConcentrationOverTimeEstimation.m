@@ -4,7 +4,7 @@
 
 # data
 # E2F3A - EdU
-file = importdata ("./data/E2F3A_EdU.csv")
+file = importdata ("./data/E2F3A_EdU.csv");
 E2F3_EdU = ones(3,100);
 currentIndex = ones(3,1);
 for i = 1:size(file)(1)
@@ -16,7 +16,7 @@ for i = 1:size(file)(1)
   currentIndex(3) = currentIndex(3) + file(i,4);
 end
 # EdU - E2F3A
-file = importdata ("./data/EdU_E2F3A.csv")
+file = importdata ("./data/EdU_E2F3A.csv");
 EdU_E2F3 = ones(3,100);
 currentIndex = ones(3,1);
 for i = 1:size(file)(1)
@@ -28,7 +28,7 @@ for i = 1:size(file)(1)
   currentIndex(3) = currentIndex(3) + file(i,4);
 end
 # E2F3A - pH3
-file = importdata ("./data/E2F3A_pH3.csv")
+file = importdata ("./data/E2F3A_pH3.csv");
 E2F3_pH3 = ones(3,100);
 currentIndex = ones(3,1);
 for i = 1:size(file)(1)
@@ -40,7 +40,7 @@ for i = 1:size(file)(1)
   currentIndex(3) = currentIndex(3) + file(i,4);
 end
 # pH3 - E2F3A
-file = importdata ("./data/pH3_E2F3A.csv")
+file = importdata ("./data/pH3_E2F3A.csv");
 pH3_E2F3 = ones(3,100);
 currentIndex = ones(3,1);
 for i = 1:size(file)(1)
@@ -52,7 +52,7 @@ for i = 1:size(file)(1)
   currentIndex(3) = currentIndex(3) + file(i,4);
 end
 # E2F8 - EdU
-file = importdata ("./data/E2F8_EdU.csv")
+file = importdata ("./data/E2F8_EdU.csv");
 E2F8_EdU = ones(3,100);
 currentIndex = ones(3,1);
 for i = 1:size(file)(1)
@@ -64,7 +64,7 @@ for i = 1:size(file)(1)
   currentIndex(3) = currentIndex(3) + file(i,4);
 end
 # EdU - E2F8
-file = importdata ("./data/EdU_E2F8.csv")
+file = importdata ("./data/EdU_E2F8.csv");
 EdU_E2F8 = ones(3,100);
 currentIndex = ones(3,1);
 for i = 1:size(file)(1)
@@ -76,7 +76,7 @@ for i = 1:size(file)(1)
   currentIndex(3) = currentIndex(3) + file(i,4);
 end
 #E2F8 - pH3
-file = importdata ("./data/E2F8_pH3.csv")
+file = importdata ("./data/E2F8_pH3.csv");
 E2F8_pH3 = ones(3,100);
 currentIndex = ones(3,1);
 for i = 1:size(file)(1)
@@ -88,7 +88,7 @@ for i = 1:size(file)(1)
   currentIndex(3) = currentIndex(3) + file(i,4);
 end
 # pH3 - E2F8
-file = importdata ("./data/pH3_E2F8.csv")
+file = importdata ("./data/pH3_E2F8.csv");
 pH3_E2F8 = ones(3,100);
 currentIndex = ones(3,1);
 for i = 1:size(file)(1)
@@ -100,7 +100,7 @@ for i = 1:size(file)(1)
   currentIndex(3) = currentIndex(3) + file(i,4);
 end
 # E2F3A - E2F8
-file = importdata ("./data/E2F3A_E2F8.csv")
+file = importdata ("./data/E2F3A_E2F8.csv");
 E2F3_E2F8 = ones(3,100);
 currentIndex = ones(3,1);
 for i = 1:size(file)(1)
@@ -112,7 +112,7 @@ for i = 1:size(file)(1)
   currentIndex(3) = currentIndex(3) + file(i,4);
 end
 # E2F8 - E2F3A
-file = importdata ("./data/E2F8_E2F3A.csv")
+file = importdata ("./data/E2F8_E2F3A.csv");
 E2F8_E2F3 = ones(3,100);
 currentIndex = ones(3,1);
 for i = 1:size(file)(1)
@@ -124,7 +124,7 @@ for i = 1:size(file)(1)
   currentIndex(3) = currentIndex(3) + file(i,4);
 end
 # E2F4 - EdU
-file = importdata ("./data/E2F4_EdU.csv")
+file = importdata ("./data/E2F4_EdU.csv");
 E2F4_EdU = ones(2,100);
 currentIndex = ones(2,1);
 for i = 1:size(file)(1)
@@ -134,7 +134,7 @@ for i = 1:size(file)(1)
   currentIndex(2) = currentIndex(2) + file(i,3);
 end
 # EdU - E2F4
-file = importdata ("./data/EdU_E2F4.csv")
+file = importdata ("./data/EdU_E2F4.csv");
 EdU_E2F4 = ones(2,100);
 currentIndex = ones(2,1);
 for i = 1:size(file)(1)
@@ -144,7 +144,7 @@ for i = 1:size(file)(1)
   currentIndex(2) = currentIndex(2) + file(i,3);
 end
 # E2F4 - pH3
-file = importdata ("./data/E2F4_pH3.csv")
+file = importdata ("./data/E2F4_pH3.csv");
 E2F4_pH3 = ones(2,100);
 currentIndex = ones(2,1);
 for i = 1:size(file)(1)
@@ -154,7 +154,7 @@ for i = 1:size(file)(1)
   currentIndex(2) = currentIndex(2) + file(i,3);
 end
 # pH3 - E2F4
-file = importdata ("./data/pH3_E2F4.csv")
+file = importdata ("./data/pH3_E2F4.csv");
 pH3_E2F4 = ones(2,100);
 currentIndex = ones(2,1);
 for i = 1:size(file)(1)
@@ -164,7 +164,7 @@ for i = 1:size(file)(1)
   currentIndex(2) = currentIndex(2) + file(i,3);
 end
 # E2F3A - E2F4
-file = importdata ("./data/E2F3A_E2F4.csv")
+file = importdata ("./data/E2F3A_E2F4.csv");
 E2F3_E2F4 = ones(2,100);
 currentIndex = ones(2,1);
 for i = 1:size(file)(1)
@@ -174,7 +174,7 @@ for i = 1:size(file)(1)
   currentIndex(2) = currentIndex(2) + file(i,3);
 end
 #E2F4 - E2F3A
-file = importdata ("./data/E2F4_E2F3A.csv")
+file = importdata ("./data/E2F4_E2F3A.csv");
 E2F4_E2F3 = ones(2,100);
 currentIndex = ones(2,1);
 for i = 1:size(file)(1)
@@ -195,9 +195,9 @@ hold on;
 for i = 1:3
   plot(x,E2F3_EdU(i,:),'k','LineWidth',1,x(EdU_E2F3(i,:)==1),(EdU_E2F3(EdU_E2F3(i,:)==1)+3.5),'r-','LineWidth',2,x(EdU_E2F3(i,:)==2),(EdU_E2F3(EdU_E2F3(i,:)==2)+3.5),'r--','LineWidth',2)
 end
-axis([1 100 0 3.75],"nolabel")
-legend("E2F3","Dense EdU","Punctated EdU","location","NorthWest")
-title("Initialization")
+axis([1 100 0 3.75],"nolabel");
+legend("E2F3","Dense EdU","Punctated EdU","location","NorthWest");
+title("Initialization");
 print (hf, "./results/E2F3-EdU_MW_initialization.png");
 close();
 # E2F3 - pH3
@@ -206,18 +206,18 @@ hold on;
 for i = 1:3
   plot(x,E2F3_pH3(i,:),'b','LineWidth',2,x(pH3_E2F3(i,:)==1),(pH3_E2F3(pH3_E2F3(i,:)==1)+3.5),'r--','LineWidth',2,x(pH3_E2F3(i,:)==2),(pH3_E2F3(pH3_E2F3(i,:)==2)+3.5),'r-','LineWidth',2)
 end
-axis([1 100 0 3.75],"nolabel")
-legend("E2F3","Punctated pH3","Dense pH3","location","NorthWest")
-title("Initialization")
+axis([1 100 0 3.75],"nolabel");
+legend("E2F3","Punctated pH3","Dense pH3","location","NorthWest");
+title("Initialization");
 print (hf, "./results/E2F3-pH3_MW_initialization.png");
 close();
 # E2F3 - E2F8
 hf=figure();
 hold on;
 for i = 1:3
-  plot(x,E2F3_E2F8(i,:),'b-','LineWidth',2,E2F8_E2F3(i,:),'r-','LineWidth',2)
+  plot(x,E2F3_E2F8(i,:),'b-','LineWidth',2,E2F8_E2F3(i,:),'r-','LineWidth',2);
 end
-axis([1 100 0 3.75],"nolabel")
+axis([1 100 0 3.75],"nolabel");
 legend("E2F3","E2F8","location","NorthWest")
 title("Initialization")
 print (hf, "./results/E2F3-E2F8_MW_initialization.png");
@@ -545,7 +545,7 @@ print (hf, "./results/EdU_MW_initialRegistration2.png");
 close();
 
 ######################################################################
-# Local Hungarian algorithm 2
+# Hungarian algorithm
 ######################################################################
 # Register E2F3, E2F8 and E2F4 all together
 ######################################################################
@@ -702,7 +702,7 @@ for k = 1:nbIters
       for j=1:100
         E2F38_cost(j,i) += ((current_E2F3_E2F8(p,j)-current_E2F3_EdU(3,i))^2 + (current_E2F3_E2F8(p,j)-current_E2F3_pH3(3,i))^2 + ...
                             (current_E2F8_E2F3(p,j)-current_E2F8_EdU(3,i))^2 + (current_E2F8_E2F3(p,j)-current_E2F8_pH3(3,i))^2 + ...
-                            sqrt(min([i-j,100-(i-j)])^2)/k);
+                             sqrt(min([i-j,100-(i-j)])^2)/k);
       end
     end
     # Assignment with Hungarian algorithm
@@ -749,7 +749,7 @@ plot(x,inter_E2F3_EdU(3,:),'r--','LineWidth',2,E2F3_pH3(3,:),'b--','LineWidth',2
 axis([1 100 0 4.5],"nolabel")
 legend("E2F3A with EdU","E2F3A with pH3","E2F3A with E2F8","E2F3A with E2F4","location","NorthWest")
 title("E2F3A registration")
-print (hf, "./results/E2F3_MW_registration_local12.png");
+print (hf, "./results/E2F3_MW_registration.png");
 close();
 # E2F8 registration
 hf=figure();
@@ -762,7 +762,7 @@ end
 axis([1 100 0 4.5],"nolabel")
 legend("E2F8 with EdU","E2F8 with pH3","E2F8 with E2F3A","location","NorthWest")
 title("E2F8 registration")
-print (hf, "./results/E2F8_MW_registration_local12.png");
+print (hf, "./results/E2F8_MW_registration.png");
 close();
 # E2F4 registration
 hf=figure();
@@ -775,7 +775,7 @@ end
 axis([1 100 0 4.5],"nolabel")
 legend("E2F4 with EdU","E2F4 with pH3","E2F4 with E2F3A","location","NorthWest")
 title("E2F4 registration")
-print (hf, "./results/E2F4_MW_registration_local12.png");
+print (hf, "./results/E2F4_MW_registration.png");
 close();
 
 final_E2F3_EdU = current_E2F3_EdU;
@@ -827,18 +827,18 @@ for i =1:100
 end
 
 
-splineParameter=4
-pp_E2F3 = splinefit (x, (final_E2F3_EdU(1,:)+final_E2F3_pH3(1,:)+final_E2F3_E2F8(1,:)+final_E2F3_E2F4(1,:)+final_E2F3_EdU(2,:)+final_E2F3_pH3(2,:)+final_E2F3_E2F8(2,:)+final_E2F3_E2F4(2,:)+final_E2F3_EdU(3,:)+final_E2F3_pH3(3,:)+final_E2F3_E2F8(3,:))/11, splineParameter );
+splineParameter=4;
+pp_E2F3 = splinefit (x, (final_E2F3_EdU(1,:)+final_E2F3_pH3(1,:)+final_E2F3_E2F8(1,:)+final_E2F3_E2F4(1,:)+final_E2F3_EdU(2,:)+final_E2F3_pH3(2,:)+final_E2F3_E2F8(2,:)+final_E2F3_E2F4(2,:)+final_E2F3_EdU(3,:)+final_E2F3_pH3(3,:)+final_E2F3_E2F8(3,:))/11, splineParameter, "order", 5);
 y_E2F3 = ppval (pp_E2F3, xx);
-y_E2F3(y_E2F3<0) = 0
-y_E2F3(380:400) = 0
-pp_E2F8 = splinefit (x, (final_E2F8_EdU(1,:)+final_E2F8_pH3(1,:)+final_E2F8_E2F3(1,:)+final_E2F8_EdU(2,:)+final_E2F8_pH3(2,:)+final_E2F8_E2F3(2,:)+final_E2F8_EdU(3,:)+final_E2F8_pH3(3,:)+final_E2F8_E2F3(3,:))/9, splineParameter);
+y_E2F3(y_E2F3<0) = 0;
+%y_E2F3(380:400) = 0;
+pp_E2F8 = splinefit (x, (final_E2F8_EdU(1,:)+final_E2F8_pH3(1,:)+final_E2F8_E2F3(1,:)+final_E2F8_EdU(2,:)+final_E2F8_pH3(2,:)+final_E2F8_E2F3(2,:)+final_E2F8_EdU(3,:)+final_E2F8_pH3(3,:)+final_E2F8_E2F3(3,:))/9, splineParameter, "order", 5);
 y_E2F8 = ppval (pp_E2F8, xx);
-y_E2F8(1:130) = 0
-y_E2F8(y_E2F8<0) = 0
-pp_E2F4 = splinefit (x, (final_E2F4_EdU(1,:)+final_E2F4_pH3(1,:)+final_E2F4_E2F3(1,:)+final_E2F4_EdU(2,:)+final_E2F4_pH3(2,:)+final_E2F4_E2F3(2,:))/6, splineParameter);
+%y_E2F8(1:130) = 0;
+y_E2F8(y_E2F8<0) = 0;
+pp_E2F4 = splinefit (x, (final_E2F4_EdU(1,:)+final_E2F4_pH3(1,:)+final_E2F4_E2F3(1,:)+final_E2F4_EdU(2,:)+final_E2F4_pH3(2,:)+final_E2F4_E2F3(2,:))/6, splineParameter, "order", 5);
 y_E2F4 = ppval (pp_E2F4, xx);
-y_E2F4(y_E2F4<0) = 0
+y_E2F4(y_E2F4<0) = 0;
 
 # E2F3A registration
 hf=figure();
@@ -855,7 +855,7 @@ plot(xx,y_E2F3,'color',[0.44,.68,0.28],'LineWidth',2)
 axis([1 100 0 4.5],"nolabel")
 legend("E2F3A with EdU","E2F3A with pH3","E2F3A with E2F8","E2F3A with E2F4","location","NorthWest")
 title("E2F3A registration")
-print (hf, "./results/E2F3_MW_registration_local12.png");
+print (hf, "./results/E2F3_MW_registration.png");
 close();
 # E2F8 registration
 hf=figure();
@@ -869,7 +869,7 @@ plot(xx,y_E2F8,'color',[0.27,.45,0.77],'LineWidth',2)
 axis([1 100 0 4.5],"nolabel")
 legend("E2F8 with EdU","E2F8 with pH3","E2F8 with E2F3A","location","NorthWest")
 title("E2F8 registration")
-print (hf, "./results/E2F8_MW_registration_local12.png");
+print (hf, "./results/E2F8_MW_registration.png");
 close();
 # E2F4 registration
 hf=figure();
@@ -883,7 +883,7 @@ plot(xx,y_E2F4,'color',[.75,0,0],'LineWidth',2)
 axis([1 100 0 4.5],"nolabel")
 legend("E2F4 with EdU","E2F4 with pH3","E2F4 with E2F3A","location","NorthWest")
 title("E2F4 registration")
-print (hf, "./results/E2F4_MW_registration_local12.png");
+print (hf, "./results/E2F4_MW_registration.png");
 close();
 
 hf=figure();
@@ -892,6 +892,6 @@ plot(xx,y_E2F3,'color',[0.44,.68,0.28],'LineWidth',2,xx,y_E2F8,'color',[0.27,.45
      x(final_pH3==1),(final_pH3(final_pH3==1)+2.25),'color',[0.44,.19,0.63],'linestyle',':','LineWidth',2,x(final_EdU==2),(final_EdU(final_EdU==2)+1.5),'r:','LineWidth',2);
 axis([1 100 0 3.75],"nolabel")
 legend("E2F3A","MYC-E2F8","MYC-E2F4","EdU","pH3","location","NorthWest")
-file = strcat("./results/final_local2_",num2str(splineParameter),".png");
+file = strcat("./results/final.png");
 print (hf, file);
 close();
