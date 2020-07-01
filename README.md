@@ -2,9 +2,9 @@
 
 This is an Octave code to estimate the protein concentration evolution over time.
 
-This code needs as inputs initialization of protein levels over time. It then uses cell cycle markers to register the protein concentration between experiments. It finally uses the Hungarian algorithm to estimate the overall protein concentration evolution over the cell cycle.
+This code needs as inputs the initialization of protein levels over time. It then uses markers to register the protein concentration between experiments. It finally uses the Hungarian algorithm to estimate the overall protein concentration evolution over time defined as an assignment problem.
 
-An example corresponding to for E2F3A, E2F8, E2F4, EdU and pH3 data extracted from 2D still images is given.
+An example corresponding to the accumulation of E2F3A, E2F8 and E2F4 over the cell cycle, by using EdU and pH3 as cell cycle markers is given. In this particular case, data was extracted from 2D still images.
 
 # Thanks to a Third Party Lib
 
